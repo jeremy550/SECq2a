@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+<body>
+
+<h1>Create Account</h1>
+<form action="q2a.php" method="post">
+
+<h3>Email</h3>
+<input type="text" id="email" name="email" size="100" required>
+<h3>Password</h3>
+<input type="password" id="password" name="password" size="100" required><br>
+Minumun 10 characters. Must include uppercase,lowercase and number(s)
+<h3>Re-typed Password</h3>
+<input type="password" id="re_password" name="re_password" size="100" height="100" required><br><br> 
+<div class="g-recaptcha" data-sitekey="6Le64rQZAAAAAElmUso2PjOu4Wc_GvQbSYtMfyy3"></div><br>
+
+
+ <input type="submit" name="submit" value="Create Account">
+
+</form>
+
+
+</body>
+</html>
